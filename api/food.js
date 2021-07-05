@@ -17,11 +17,13 @@ async function connectToDatabase(uri) {
 
 module.exports = async (req, res) => {
   const queried_var = req.query.q ?? "";
+  
+  let finder = {};
 
   if (!queried_var || /^\s*$/.test(queried_var) || queried_var.length === 0) {
-    const finder = {};
+    finder = {};
   } else {
-    const finder = {'name': {'$regex': queried_var}};
+    finder = {'name': {'$regex': queried_var}};
   }
 
   res.statusCode = 200;
