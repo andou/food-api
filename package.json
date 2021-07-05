@@ -1,0 +1,25 @@
+{
+  "name": "food-api",
+  "version": "1.0.0",
+  "description": "A simple MongoDB powered API for food nutritional facts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andou/food-api.git"
+  },
+  "keywords": [
+    "api",
+    "mongodb",
+    "food",
+    "nutritional-facts"
+  ],
+  "author": "antonio.pastorino@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andou/food-api/issues"
+  },
+  "homepage": "https://github.com/andou/food-api#readme"
+}
