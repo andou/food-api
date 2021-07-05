@@ -1,0 +1,7 @@
+{
+  "name": "food-api",
+  "version": 2,
+  "env": {
+    "MONGODB_URI": "@food-api-mongo-pre-uri"
+  }
+}

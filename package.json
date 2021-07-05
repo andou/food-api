@@ -4,6 +4,7 @@
   "description": "A simple MongoDB powered API for food nutritional facts",
   "main": "index.js",
   "scripts": {
+    "build": "node food.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/andou/food-api/issues"
   },
-  "homepage": "https://github.com/andou/food-api#readme"
+  "homepage": "https://github.com/andou/food-api#readme",
+  "dependencies": {
+    "mongodb": "^3.6.9"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.11.1"
+  }
 }
